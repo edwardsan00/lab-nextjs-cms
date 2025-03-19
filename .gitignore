@@ -1,0 +1,10 @@
+node_modules
+dist
+coverage
+.next
+.turbo
+.env
+.DS_Store
+yarn-error.log
+yarn.lock
+npm-debug.log*

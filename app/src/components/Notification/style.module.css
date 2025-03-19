@@ -1,0 +1,19 @@
+.notification {
+  width: 100%;
+  background-color: black;
+}
+
+.notification__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 8px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notification__text {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}

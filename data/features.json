@@ -1,0 +1,254 @@
+{
+  "title": "Características del Producto",
+  "description": "Explora todas las funcionalidades disponibles",
+  "components": [
+    {
+      "type": "Hero",
+      "props": {
+        "title": "Características Avanzadas",
+        "subtitle": "Descubre todo lo que puedes hacer con nuestro Sistema de Renderizado Dinámico",
+        "align": "center",
+        "size": "lg",
+        "primaryButtonText": "Ver demo",
+        "primaryButtonUrl": "/demo",
+        "secondaryButtonText": "Documentación",
+        "secondaryButtonUrl": "/docs"
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "title": "Características principales",
+        "subtitle": "Todo lo que necesitas para crear páginas dinámicas",
+        "background": "light",
+        "centered": true
+      },
+      "children": [
+        {
+          "type": "Container",
+          "props": {
+            "maxWidth": "xl"
+          },
+          "children": [
+            {
+              "type": "Feature",
+              "props": {
+                "title": "Renderizado Dinámico",
+                "description": "Crea páginas completas simplemente definiendo estructuras JSON, sin necesidad de programar.",
+                "icon": "⚡",
+                "variant": "bordered"
+              }
+            },
+            {
+              "type": "Feature",
+              "props": {
+                "title": "Server Components",
+                "description": "Aprovecha el poder de React 19 y Next.js 15 con Server Components para un rendimiento óptimo.",
+                "icon": "🚀",
+                "variant": "highlighted"
+              }
+            },
+            {
+              "type": "Feature",
+              "props": {
+                "title": "Componentes Reutilizables",
+                "description": "Biblioteca completa de componentes UI listos para usar en cualquier página.",
+                "icon": "🧩",
+                "variant": "default"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "props": {
+        "title": "Planes y Precios",
+        "subtitle": "Elige el plan que mejor se adapte a tus necesidades",
+        "background": "white",
+        "centered": true
+      },
+      "children": [
+        {
+          "type": "Container",
+          "props": {
+            "maxWidth": "xl"
+          },
+          "children": [
+            {
+              "type": "Pricing",
+              "props": {
+                "title": "Básico",
+                "price": "9.99",
+                "description": "Perfecto para proyectos personales",
+                "buttonText": "Comenzar gratis",
+                "features": [
+                  {
+                    "name": "Hasta 5 páginas",
+                    "included": true
+                  },
+                  {
+                    "name": "Componentes básicos",
+                    "included": true
+                  },
+                  {
+                    "name": "Soporte por email",
+                    "included": true
+                  },
+                  {
+                    "name": "Personalización avanzada",
+                    "included": false
+                  },
+                  {
+                    "name": "Dominio personalizado",
+                    "included": false
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Pricing",
+              "props": {
+                "title": "Pro",
+                "price": "29.99",
+                "description": "Ideal para pequeñas empresas",
+                "buttonText": "Obtener Pro",
+                "popular": true,
+                "features": [
+                  {
+                    "name": "Páginas ilimitadas",
+                    "included": true
+                  },
+                  {
+                    "name": "Todos los componentes",
+                    "included": true
+                  },
+                  {
+                    "name": "Soporte prioritario",
+                    "included": true
+                  },
+                  {
+                    "name": "Personalización avanzada",
+                    "included": true
+                  },
+                  {
+                    "name": "Dominio personalizado",
+                    "included": false
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Pricing",
+              "props": {
+                "title": "Enterprise",
+                "price": "99.99",
+                "description": "Para grandes proyectos y empresas",
+                "buttonText": "Contactar ventas",
+                "features": [
+                  {
+                    "name": "Páginas ilimitadas",
+                    "included": true
+                  },
+                  {
+                    "name": "Todos los componentes",
+                    "included": true
+                  },
+                  {
+                    "name": "Soporte 24/7",
+                    "included": true
+                  },
+                  {
+                    "name": "Personalización avanzada",
+                    "included": true
+                  },
+                  {
+                    "name": "Dominio personalizado",
+                    "included": true
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "props": {
+        "title": "Preguntas Frecuentes",
+        "subtitle": "Resolvemos tus dudas",
+        "background": "light"
+      },
+      "children": [
+        {
+          "type": "Container",
+          "props": {
+            "maxWidth": "lg"
+          },
+          "children": [
+            {
+              "type": "FAQ",
+              "props": {
+                "items": [
+                  {
+                    "question": "¿Cómo funciona el sistema de renderizado dinámico?",
+                    "answer": "Nuestro sistema lee archivos JSON que definen qué componentes deben renderizarse y con qué propiedades. Esto permite crear páginas sin necesidad de escribir código, simplemente definiendo estructuras JSON."
+                  },
+                  {
+                    "question": "¿Puedo personalizar los componentes?",
+                    "answer": "Sí, todos los componentes son altamente personalizables a través de propiedades en el JSON. Además, puedes crear tus propios componentes y agregarlos al sistema."
+                  },
+                  {
+                    "question": "¿Es compatible con dispositivos móviles?",
+                    "answer": "Absolutamente. Todos los componentes están diseñados con un enfoque mobile-first y son totalmente responsivos para verse perfectos en cualquier dispositivo."
+                  },
+                  {
+                    "question": "¿Cómo puedo empezar a usar el sistema?",
+                    "answer": "Simplemente crea un archivo JSON en la carpeta 'data' con la estructura de tu página y accede a la URL correspondiente. El sistema se encargará de renderizar la página automáticamente."
+                  }
+                ],
+                "defaultOpenIndex": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "props": {
+        "title": "Contáctanos",
+        "subtitle": "¿Tienes alguna pregunta? Estamos aquí para ayudarte",
+        "background": "primary",
+        "centered": true
+      },
+      "children": [
+        {
+          "type": "Container",
+          "props": {
+            "maxWidth": "md"
+          },
+          "children": [
+            {
+              "type": "ContactForm",
+              "props": {
+                "title": "Envíanos un mensaje",
+                "subtitle": "Nos pondremos en contacto contigo lo antes posible",
+                "submitButtonText": "Enviar consulta",
+                "fields": {
+                  "name": true,
+                  "email": true,
+                  "phone": true,
+                  "subject": true,
+                  "message": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

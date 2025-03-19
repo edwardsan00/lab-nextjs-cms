@@ -1,0 +1,8 @@
+:root {
+  --test-bg-primary: #000;
+  --test-color-primary: #fff;
+}
+
+.test-build {
+  color: red;
+}

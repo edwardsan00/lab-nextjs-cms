@@ -1,0 +1,86 @@
+{
+  "title": "Página de Inicio",
+  "description": "Bienvenido a nuestra página principal",
+  "components": [
+    {
+      "type": "Hero",
+      "props": {
+        "title": "Bienvenido a Dynamic Page Renderer",
+        "subtitle": "Un sistema que permite renderizar páginas dinámicamente desde archivos JSON",
+        "primaryButtonText": "Ver Documentación",
+        "primaryButtonUrl": "/docs",
+        "secondaryButtonText": "Ejemplos",
+        "secondaryButtonUrl": "/examples",
+        "align": "center",
+        "size": "lg"
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "title": "Características",
+        "subtitle": "Descubre todo lo que puedes hacer con nuestro renderizador dinámico",
+        "background": "light",
+        "centered": true
+      },
+      "children": [
+        {
+          "type": "Container",
+          "props": {},
+          "children": [
+            {
+              "type": "Card",
+              "props": {
+                "title": "Renderizado Dinámico",
+                "subtitle": "Crea páginas sin necesidad de programar",
+                "variant": "elevated"
+              },
+              "children": "Utiliza nuestro sistema para crear páginas web dinámicas sin necesidad de escribir código. Solo configura el JSON y listo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "props": {
+        "background": "primary",
+        "centered": true
+      },
+      "children": [
+        {
+          "type": "Container",
+          "props": {
+            "maxWidth": "md"
+          },
+          "children": [
+            {
+              "type": "Card",
+              "props": {
+                "variant": "outlined"
+              },
+              "children": [
+                {
+                  "type": "Input",
+                  "props": {
+                    "label": "Email",
+                    "placeholder": "tucorreo@ejemplo.com",
+                    "fullWidth": true
+                  }
+                },
+                {
+                  "type": "Button",
+                  "props": {
+                    "variant": "primary",
+                    "size": "md"
+                  },
+                  "children": "Suscribirse"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "title": "Acerca de Nosotros",
+  "description": "Conoce más sobre nuestro proyecto",
+  "components": [
+    {
+      "type": "Hero",
+      "props": {
+        "title": "Acerca de Dynamic Page Renderer",
+        "subtitle": "Conoce la historia detrás de nuestro proyecto",
+        "align": "center",
+        "size": "md"
+      }
+    },
+    {
+      "type": "Section",
+      "props": {
+        "background": "white",
+        "fullWidth": false
+      },
+      "children": [
+        {
+          "type": "Container",
+          "props": {
+            "maxWidth": "lg"
+          },
+          "children": [
+            {
+              "type": "Card",
+              "props": {
+                "variant": "default"
+              },
+              "children": "Dynamic Page Renderer nació de la necesidad de crear páginas web de forma rápida y sencilla sin necesidad de escribir código. Con nuestro sistema, cualquier persona puede crear páginas web profesionales en cuestión de minutos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "props": {
+        "title": "Nuestro Equipo",
+        "subtitle": "Conoce a las personas detrás del proyecto",
+        "background": "light",
+        "centered": true
+      },
+      "children": [
+        {
+          "type": "Container",
+          "props": {
+            "maxWidth": "xl",
+            "center": true
+          },
+          "children": [
+            {
+              "type": "Card",
+              "props": {
+                "title": "Juan Pérez",
+                "subtitle": "CEO & Fundador",
+                "variant": "elevated"
+              },
+              "children": "Ingeniero de software con más de 10 años de experiencia en desarrollo web."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Section",
+      "props": {
+        "title": "Contacto",
+        "background": "primary",
+        "centered": true
+      },
+      "children": [
+        {
+          "type": "Container",
+          "props": {
+            "maxWidth": "md"
+          },
+          "children": [
+            {
+              "type": "Card",
+              "props": {
+                "variant": "outlined"
+              },
+              "children": [
+                {
+                  "type": "Input",
+                  "props": {
+                    "label": "Nombre",
+                    "placeholder": "Tu nombre",
+                    "fullWidth": true
+                  }
+                },
+                {
+                  "type": "Input",
+                  "props": {
+                    "label": "Email",
+                    "placeholder": "tucorreo@ejemplo.com",
+                    "fullWidth": true
+                  }
+                },
+                {
+                  "type": "Button",
+                  "props": {
+                    "variant": "primary",
+                    "size": "md"
+                  },
+                  "children": "Enviar Mensaje"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

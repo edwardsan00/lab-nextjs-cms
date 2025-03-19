@@ -1,0 +1,32 @@
+{
+  "name": "@dynamic-page-renderer/ui",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^8.40.0",
+    "react": "^19.0.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@swc/core": "^1.11.11",
+    "D": "^1.0.0"
+  }
+}
