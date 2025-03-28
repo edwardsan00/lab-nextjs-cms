@@ -7,10 +7,10 @@
       "props": {
         "title": "Bienvenido a Dynamic Page Renderer",
         "subtitle": "Un sistema que permite renderizar páginas dinámicamente desde archivos JSON",
-        "primaryButtonText": "Ver Documentación",
-        "primaryButtonUrl": "/docs",
-        "secondaryButtonText": "Ejemplos",
-        "secondaryButtonUrl": "/examples",
+        "primaryButtonText": "Vida",
+        "primaryButtonUrl": "/seguros-vida",
+        "secondaryButtonText": "Vida full",
+        "secondaryButtonUrl": "/seguros-vida/full",
         "align": "center",
         "size": "lg"
       }

@@ -2,13 +2,33 @@
 
 import React, { Suspense, lazy } from "react";
 import { ComponentConfig } from "@/lib/pageData";
-import { Button, Input } from "@dynamic-page-renderer/ui";
+import { Button as BaseButton, Input } from "@dynamic-page-renderer/ui";
+import { useRouter } from "next/navigation";
 
 // Importar componentes cliente usando lazy()
 const Feature = lazy(() => import("./Feature"));
 const Pricing = lazy(() => import("./Pricing"));
 const ContactForm = lazy(() => import("./ContactForm"));
 const FAQ = lazy(() => import("./FAQ"));
+
+// Botón personalizado que puede manejar navegación
+const Button = (props: any) => {
+  const router = useRouter();
+  const { navigationUrl, ...restProps } = props;
+
+  const handleClick = () => {
+    if (navigationUrl) {
+      router.push(navigationUrl);
+    }
+  };
+
+  return (
+    <BaseButton
+      onClick={navigationUrl ? handleClick : undefined}
+      {...restProps}
+    />
+  );
+};
 
 // Mapa de componentes cliente
 const clientComponentMap: Record<string, React.ComponentType<any>> = {

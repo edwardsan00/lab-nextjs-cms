@@ -50,7 +50,7 @@ export default function Hero({
                   props={{
                     variant: "primary",
                     size: "lg",
-                    // onClick: () => {},
+                    navigationUrl: primaryButtonUrl,
                   }}
                   children={primaryButtonText}
                 />
@@ -62,7 +62,7 @@ export default function Hero({
                   props={{
                     variant: "outline",
                     size: "lg",
-                    // onClick: () => {},
+                    navigationUrl: secondaryButtonUrl,
                   }}
                   children={secondaryButtonText}
                 />

@@ -2,10 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   transpilePackages: ["@dynamic-page-renderer/ui"],
+  distDir: "dist",
   experimental: {
     typedRoutes: true,
     webpackBuildWorker: true,
-    instrumentationHook: true,
   },
 };
 
